@@ -83,6 +83,24 @@ keras.layers.Reshape(target_shape, **kwargs)
 keras.layers.Flatten(data_format=None, **kwargs)
 ```
 
+### Keras tokenizer
+We can use the Keras tokenizer instance as follows
+```Python
+keras.preprocessing.text.Tokenizer(char_level=True)
+```
+Example
+```Python
+tokenizer = keras.preprocessing.text.Tokenizer(char_level=True)
+tokenizer.fit_on_texts(example_text)
+```
+```Python
+```
+```Python
+```
+```Python
+```
+```Python
+```
 ```Python
 ```
 
