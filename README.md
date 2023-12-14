@@ -69,6 +69,9 @@ keras.layers.Conv3D()
 # Pooling layers
 keras.layers.MaxPooling1D()
 
+# Recurrent layers
+keras.layers.LSTM()
+
 # Preprocessing layers
 keras.layers.TextVectorization()
 
